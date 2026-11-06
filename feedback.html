@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Feedback</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Profile & Course Portal</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="Grades.html">Grades</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<hr>
+    <main>
+
+        <h2>Submit Feedback</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <br>
+
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label>How was your experience?</label>
+            <br>
+
+            <input type="radio" id="excellent" name="rating" value="excellent">
+            <label for="excellent">Excellent</label>
+
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label>
+
+            <input type="radio" id="average" name="rating" value="average">
+            <label for="average">Average</label>
+
+            <br><br>
+
+            <label>What did you like?</label>
+            <br>
+
+            <input type="checkbox" id="profile" name="like">
+            <label for="profile">Profile</label>
+
+            <input type="checkbox" id="courses" name="like">
+            <label for="courses">Courses</label>
+
+            <input type="checkbox" id="grades" name="like">
+            <label for="grades">Grades</label>
+
+            <br><br>
+
+            <label for="type">Feedback Type:</label>
+            <br>
+
+            <select id="type" name="type">
+
+                <option value="general">General</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="complaint">Complaint</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="message">Your Feedback:</label>
+            <br>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="40">
+            </textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+
+    </main>
+<hr>
+    <footer>
+        <p>© 2026 Student Profile & Course Portal</p>
+    </footer>
+
+</body>
+
+</html>
